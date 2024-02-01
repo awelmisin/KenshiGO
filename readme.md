@@ -1,10 +1,12 @@
 Herkese merhabalar,
 Kenshi yakın zamanda .js'yi bırakıp golang'e geçti. Vakit kaybetmeden sizlere hızlıca sıfırdan kurulumundan ve varsa eğer nasıl eski .js'den transfer edebileceğinizden bahsedeceğim.
-Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır.
+Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır.  
 
-KURULUM
+ARKADAŞLAR LÜTFEN OLDUĞUNUZ KLASÖRE DİKKAT EDİN. DOCKER KLASÖRÜNDE YAZMANIZ GEREKENİ FARKLI KLASÖRDE YAZMAYIN.
+
+# KURULUM
 Öncelikle docker'ı yüklememiz lazım.
-# 1.1 Komutları tek tek girelim.
+# 1.1 Sunucu Güncellemesi ve Docker Kurulumu
 	sudo apt update 
 	sudo apt upgrade
 	sudo apt install docker-compose
@@ -24,7 +26,11 @@ Daha sonrasında Kenshi Unchained sayfasından güncel release file'ı çekelim.
 
     TEK TEK YAPIN!
 
-  Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin.
+
+  Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
+  
+  HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.0-alpha.5-docker#  klasöründe işlem yapmanız gerekli!
+
 
 # 1.3 Node Düzenlemesi
     cp conf.worker.yaml.template conf.worker.yaml
@@ -43,7 +49,7 @@ CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/657b5a64-4067-47f2-9ee3-b67bb8dd0b04)
 
 Docker'ı aktif hale getirelim ve başlatalım. Eğer üstteki ekran geldiyse işlem tamam demektir. Leaderboard'dan kendinize bakabilirsiniz.
-Eğer sıfırdan kuruyorsanız buraya kadardı.
+Eğer sıfırdan kuruyorsanız buraya kadardı. Bundan sonrası taşıma yapmak isteyenler için.
 
 # 1.5 .JS'DEN GO'YA TAŞIMAK İÇİN
     cd
@@ -61,7 +67,7 @@ Bu bize bir klasör yaratmış olacak.
 
 # 1.5.1 Key'i taşıma.
     cd conf
-Bu klasörün içine girelim.
+DOCKER Klasörünün içerisindeyken, bu klasörün içine girelim.
 
 Burada "conf.worker.yaml" ve "secrets.worker.yaml" olarak iki dosya var olmuş olacak. Yedeğini aldığımız keyleri "secrets.worker.yaml" dosyasına girip değiştirelim.
 #  
