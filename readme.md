@@ -1,16 +1,18 @@
 <p align="center">
   <img src="https://github.com/awelmisin/KenshiGO/assets/73443933/8f4fe2a3-e4bc-4e9e-b55f-2455d7eea9bb">
 </p> 
-
+<h1 align="center">Kenshi GO</h1>
+<p align="center">
 Herkese merhabalar,
+<p align="center">	
 Kenshi yakın zamanda .js'yi bırakıp golang'e geçti.
-
+<p align="center">
 Bu repo'da sizlere sıfırdan kurulumundan ve eğer varsa nasıl eski .js'den transfer edebileceğinizden bahsedeceğim.
+<p align="center">
 Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
+<p align="center">
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır.
-
-
-ARKADAŞLAR LÜTFEN OLDUĞUNUZ KLASÖRE DİKKAT EDİN. DOCKER KLASÖRÜNDE YAZMANIZ GEREKENİ FARKLI KLASÖRDE YAZMAYIN.
+</p>
 
 # KURULUM
 Öncelikle docker'ı yüklememiz lazım.
