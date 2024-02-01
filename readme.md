@@ -31,6 +31,7 @@ Daha sonrasında Kenshi Unchained sayfasından güncel release file'ı çekelim.
 
 Burada "şimdilik" sadece bir isim parametresi ekleyeceğiz. 
 Ekledikten sonra böyle gözükecek:
+
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/09fdf2d9-3a70-400d-ac2f-93ca56933d4c)
 
 CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
@@ -51,6 +52,7 @@ Eğer daha önce .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapman�
 
 
 Bunları aldıktan sonra 1.4'teki Node Çalıştırma eylemini yapalım ve sonra CTRL+C yaparak kurduğumuz node'u kapatalım.
+
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/45497c0b-096d-4ea8-a6df-8a2c4cdb238f)
 
 Bu bize bir klasör yaratmış olacak.
@@ -72,8 +74,7 @@ CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
     ./unchained.sh worker logs -f
 unchained'in kurulu olduğu klasöre dönerek bunu başlatıp leaderboard'da kendinizi arayabilirsiniz.
 
-Bu kadardı.
-
+Bu kadardı. Sizlere yardımcı olmak için hızlcıa yazmaya çalıştım, conf.worker.yaml dosyasını değiştirmeyi unutmayın!
 
 
 
