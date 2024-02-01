@@ -68,11 +68,12 @@ Docker'ı aktif hale getirelim ve başlatalım. Eğer üstteki ekran geldiyse i�
 Eğer sıfırdan kuruyorsanız buraya kadardı. Bundan sonrası taşıma yapmak isteyenler için. 
 
 
-# 2.0 .JS'DEN GO'YA TAŞIMAK İÇİN
+# 2.0 Eski Keyi Yedekleyin
     cd $home
     nano conf.yaml
 Eğer daha önce .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekecek. Öncelikle  WinSCP ya da "nano" komutu aracılığıyla eski Kenshi'ye ait "secretKey ve publicKey" keylerini almanız gerekecek. Daha önce aldıysanız yapmanıza gerek yok.
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/97ccd66e-e373-4e8e-a97f-5ed5669aec97)
+
 Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C yapıp, "screen -ls" kullanıp, çıkan 123123.kenshi screenini "screen -X -S 123123.kenshi kill" yaparak kapatın.
 
 
