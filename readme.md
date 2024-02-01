@@ -22,6 +22,8 @@ Daha sonrasında Kenshi Unchained sayfasından güncel release file'ı çekelim.
     unzip unchained-v0.11.0-alpha.5-docker.zip
     cd unchained-v0.11.0-alpha.5-docker
 
+    TEK TEK YAPIN!
+
   Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin.
 
 # 1.3 Node Düzenlemesi
