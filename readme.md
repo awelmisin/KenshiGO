@@ -101,19 +101,34 @@ Burada "conf.worker.yaml" ve "secrets.worker.yaml" olarak iki dosya var olmuş o
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/fab49981-e7bc-4c87-af53-1b03136a285f)
 
 
-CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
+CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım. Screen oluşturalım.
 
+# 2.3 Screen
+    screen -S kenshi
+    cd unchained-v0.11.0-alpha.5-docker
+    ./unchained.sh worker up
 
-# 2.3 Log
+Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
+
+# 2.4 Yardımcı Olacak Komutlar
+#  log için
     ./unchained.sh worker logs -f
-unchained'in kurulu olduğu klasöre dönerek bunu başlatıp leaderboard'da kendinizi arayabilirsiniz.
+#  restart için
+    ./unchained.sh worker restart
+#  başlatmak için
+    ./unchained.sh worker up -d
+#  durdurmak için
+    ./unchained.sh worker stop
 
-Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
+    ya da 
+    CTRL+C
 
 eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
-#  
+# 
     nano unchained-v0.11.0-alpha.5-docker/conf/conf.worker.yaml
 
+
+Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
 
 
 
