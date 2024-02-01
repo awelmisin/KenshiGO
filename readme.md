@@ -45,7 +45,7 @@ Eğer sıfırdan kuruyorsanız buraya kadardı.
 
 # 1.5 .JS'DEN GO'YA TAŞIMAK İÇİN
     cd
-	  nano conf.yaml
+    nano conf.yaml
 Eğer daha önce .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekecek. Öncelikle  WinSCP ya da "nano" komutu aracılığıyla eski Kenshi'ye ait "secretKey ve publickey" keylerini almanız gerekecek.
 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/97ccd66e-e373-4e8e-a97f-5ed5669aec97)
@@ -70,11 +70,12 @@ Burada "conf.worker.yaml" ve "secrets.worker.yaml" olarak iki dosya var olmuş o
 CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
 
 "conf.worker.yaml" dosyasını da kontrol edelim ve eğer farklıysa 1.3teki gibi düzenleyelim.
+
 # 1.6 Log
     ./unchained.sh worker logs -f
 unchained'in kurulu olduğu klasöre dönerek bunu başlatıp leaderboard'da kendinizi arayabilirsiniz.
 
-Bu kadardı. Sizlere yardımcı olmak için hızlcıa yazmaya çalıştım, conf.worker.yaml dosyasını değiştirmeyi unutmayın!
+Bu kadardı. Sizlere yardımcı olmak için hızlcıa yazmaya çalıştım, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 
 
 
