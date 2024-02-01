@@ -44,10 +44,19 @@ Komutları tek tek yazınız.
     nano conf.worker.yaml
 
 
-Burada "şimdilik" sadece bir isim parametresi ekleyeceğiz. 
+Burada "şimdilik" sadece bir name parametresi ekleyeceğiz. 
 Ekledikten sonra böyle gözükecek:
 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/09fdf2d9-3a70-400d-ac2f-93ca56933d4c)
+
+#
+    log: info
+    name: burayabakarlar
+    rpc:
+    ethereum:
+    - https://ethereum.publicnode.com
+    - https://eth.llamarpc.com
+    - wss://ethereum.publicnode.com
 
 CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
 
