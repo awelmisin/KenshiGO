@@ -122,9 +122,11 @@ Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabili
     ./unchained.sh worker up -d
 #  durdurmak için
     ./unchained.sh worker stop
-
     ya da 
     CTRL+C
+#  güncelleme için
+    ./unchained.sh worker pull
+    ./unchained.sh worker up -d --force-recreate
 
 eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
