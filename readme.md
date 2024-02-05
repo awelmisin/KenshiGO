@@ -32,13 +32,13 @@ Komutları tek tek yazınız.
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.0/unchained-v0.11.0-docker.zip
-    unzip unchained-v0.11.0-docker.zip
-    cd unchained-v0.11.0-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.1/unchained-v0.11.1-docker.zip
+    unzip unchained-v0.11.1-docker.zip
+    cd unchained-v0.11.1-docker
 
   Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
-  HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.0-docker#  klasöründe işlem yapmanız gerekli!
+  HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.1-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -80,7 +80,7 @@ Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C y
 
 
 # 2.1 Tekrar Node Çalıştırma
-    cd unchained-v0.11.0-docker
+    cd unchained-v0.11.1-docker
     ./unchained.sh worker up 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/45497c0b-096d-4ea8-a6df-8a2c4cdb238f)
 
@@ -108,7 +108,7 @@ CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım. Screen oluşturalım.
 
 # 2.3 Screen
     screen -S kenshi
-    cd unchained-v0.11.0-docker
+    cd unchained-v0.11.1-docker
     ./unchained.sh worker up
 
 Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -130,7 +130,7 @@ Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabili
 
 eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.0-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.1-docker/conf/conf.worker.yaml
 
 
 Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
