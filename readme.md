@@ -32,13 +32,13 @@ Komutları tek tek yazınız.
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.5/unchained-v0.11.5-docker.zip
-    unzip unchained-v0.11.5-docker.zip
-    cd unchained-v0.11.5-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.6/unchained-v0.11.6-docker.zip
+    unzip unchained-v0.11.6-docker.zip
+    cd unchained-v0.11.6-docker
 
   Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
-  HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.5-docker#  klasöründe işlem yapmanız gerekli!
+  HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.6-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -52,13 +52,22 @@ Ekledikten sonra böyle gözükecek:
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/09fdf2d9-3a70-400d-ac2f-93ca56933d4c)
 
 #
-    log: info
+     log: info
     name: burayabakarlar
+
+    plugins:
+    uniswap:
     rpc:
-    ethereum:
-    - https://ethereum.publicnode.com
-    - https://eth.llamarpc.com
-    - wss://ethereum.publicnode.com
+      ethereum: 
+        - https://ethereum.publicnode.com
+        - https://eth.llamarpc.com
+        - wss://ethereum.publicnode.com
+        - https://eth.rpc.blxrbdn.com
+    tokens:
+      - name: ethereum
+        pair: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+        delta: 6
+        invert: true
 
 CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
 
@@ -80,11 +89,11 @@ Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C y
 
 
 # 2.1 Tekrar Node Çalıştırma
-    cd unchained-v0.11.4-docker
+    cd unchained-v0.11.6-docker
     ./unchained.sh worker up 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/45497c0b-096d-4ea8-a6df-8a2c4cdb238f)
 
-DOCKER klasöründe olduğunuzdan emin olduktan sonra(cd unchained-v0.15.0-docker), tekrar node'u çalıştırın.
+DOCKER klasöründe olduğunuzdan emin olduktan sonra(cd unchained-v0.11-6-docker), tekrar node'u çalıştırın.
 
 Bu bize "conf" adında yeni bir klasör yaratmış olacak. CTRL+C yaparak durduralım.
 
@@ -108,7 +117,7 @@ CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım. Screen oluşturalım.
 
 # 2.3 Screen
     screen -S kenshi
-    cd unchained-v0.11.5-docker
+    cd unchained-v0.11.6-docker
     ./unchained.sh worker up
 
 Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -130,7 +139,7 @@ Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabili
 
 eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.5-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.6-docker/conf/conf.worker.yaml
 
 
 Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
