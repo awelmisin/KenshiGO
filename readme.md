@@ -54,37 +54,37 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/09fdf2d9-3a70-400d-ac2f-93ca56933d4c)
 
- ```console
-log: info
-name: burayabakarlar
+	log: info
+	name: burayabakarlar
 
-rpc:
-  ethereum: 
-    - https://ethereum.publicnode.com
-    - https://eth.llamarpc.com
-    - wss://ethereum.publicnode.com
-    - https://eth.rpc.blxrbdn.com
+	rpc:
+	  ethereum: 
+	    - https://ethereum.publicnode.com
+	    - https://eth.llamarpc.com
+	    - wss://ethereum.publicnode.com
+	    - https://eth.rpc.blxrbdn.com
 
-plugins:
-  uniswap:
-    tokens:
-      - name: ethereum
-        pair: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
-        delta: 6
-        invert: true
-        unit: USDT
+	plugins:
+	  uniswap:
+	    tokens:
+ 	     - name: ethereum
+		pair: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+		delta: 6
+		invert: true
+		unit: USDT
 
-      - name: arbitrum
-        pair: "0x59354356Ec5d56306791873f567d61EBf11dfbD5"
-        delta: 0
-        invert: false
-        unit: ETH
+ 	     - name: arbitrum
+		pair: "0x59354356Ec5d56306791873f567d61EBf11dfbD5"
+		delta: 0
+		invert: false
+		unit: ETH
 
-      - name: bitcoin
-        pair: "0x9db9e0e53058c89e5b94e29621a205198648425b"
-        delta: 2
-        invert: false
-        unit: USDT
+	      - name: bitcoin
+		pair: "0x9db9e0e53058c89e5b94e29621a205198648425b"
+		delta: 2
+		invert: false
+		unit: USDT
+	
 
 > CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım.
 
