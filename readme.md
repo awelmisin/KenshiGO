@@ -15,7 +15,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 </p>
 
 # PUAN KAZANAMIYORSANIZ, v0.11.9 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT. 
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.9%20Güncellemesi%20Hk..md)
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/V0.11.9%20Güncellemesi%20Hk..md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
