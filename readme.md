@@ -96,7 +96,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 
 
-# 1.5 Key'i taşıma.
+# 1.5 Secrets-Conf Düzenleme
     #1.3 aşamasında düzenlediğimiz dosyayı buraya kopyalayalım. komutu tek tek girin.
     cp -f conf.worker.yaml conf/conf.worker.yaml
     cd conf
