@@ -7,15 +7,15 @@ Herkese merhabalar,
 <p align="center">	
 Kenshi yakın zamanda .js'yi bırakıp golang'e geçti.
 <p align="center">
-Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız ilgili dosyanın rehberine bakabilirsiniz.
+Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız [ilgili dosyanın rehberi](https://github.com/awelmisin/KenshiGO/blob/main/.js'den%20go%20diline%20ge%C3%A7i%C5%9F.)ne bakabilirsiniz.
 <p align="center">
 Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 <p align="center">
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutları tek tek giriniz.
 </p>
 
-# PUAN KAZANAMIYORSANIZ, v0.11.12 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT. 
-Link
+# ÖNCEKİ SÜRÜMLERDEYSENİZ VE PUAN KAZANAMIYORSANIZ, v0.11.12 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT. 
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/V0.11.9.12%20Güncellemesi%20Hk.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
