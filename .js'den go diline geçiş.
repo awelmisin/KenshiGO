@@ -1,0 +1,42 @@
+# 2.0 Eski Keyi Yedekleyin
+    cd $home
+    nano conf.yaml
+> Eğer daha önce .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekecek. Öncelikle  WinSCP ya da "nano" komutu aracılığıyla eski Kenshi'ye ait "secretKey ve publicKey" keylerini almanız gerekecek. Daha önce aldıysanız yapmanıza gerek yok.
+![image](https://github.com/awelmisin/KenshiGO/assets/73443933/97ccd66e-e373-4e8e-a97f-5ed5669aec97)
+
+> Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C yapıp, "screen -ls" kullanıp, çıkan 123123.kenshi screenini "screen -X -S 123123.kenshi kill" yaparak kapatın.
+
+
+# 2.1 Tekrar Node Çalıştırma
+    cd unchained-v0.11.12-docker
+    ./unchained.sh worker up 
+![image](https://github.com/awelmisin/KenshiGO/assets/73443933/45497c0b-096d-4ea8-a6df-8a2c4cdb238f)
+
+> DOCKER klasöründe olduğunuzdan emin olduktan sonra(cd unchained-v0.11-6-docker), tekrar node'u çalıştırın.
+
+> Bu bize "conf" adında yeni bir klasör yaratmış olacak. CTRL+C yaparak durduralım.
+
+# 2.2 Key'i taşıma.
+    #daha önce düzenlediğimiz dosyayı buraya kopyalayalım. komutu tek tek girin.
+    cp -f conf.worker.yaml conf/conf.worker.yaml
+    cd conf
+
+> DOCKER Klasörünün içerisindeyken, bu "conf" klasörünün içine girelim.
+
+> Burada "conf.worker.yaml" ve "secrets.worker.yaml" olarak iki dosya var olmuş olacak. 
+#  
+    nano secrets.worker.yaml
+
+> Öncesinde yedeğini aldığımız keyleri "secrets.worker.yaml" dosyasına girip değiştirelim.
+
+![image](https://github.com/awelmisin/KenshiGO/assets/73443933/fab49981-e7bc-4c87-af53-1b03136a285f)
+
+
+> CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım. Screen oluşturalım.
+
+# 2.3 Screen
+    screen -S kenshi
+    cd unchained-v0.11.12-docker
+    ./unchained.sh worker up
+
+> Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
