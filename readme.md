@@ -92,13 +92,39 @@ Link
     ./unchained.sh worker up 
 ![image](https://github.com/awelmisin/KenshiGO/assets/73443933/657b5a64-4067-47f2-9ee3-b67bb8dd0b04)
 
-> Docker'ı aktif hale getirelim ve başlatalım. Eğer üstteki ekran geldiyse işlem tamam demektir. Leaderboard'dan kendinize bakabilirsiniz.
+> Docker'ı aktif hale getirelim ve başlatalım. CTRL+C ile durduralım. Bu bize lazım olacak conf dosyalarını yaratacak.
 
 
 
+# 1.5 Key'i taşıma.
+    #1.3 aşamasında düzenlediğimiz dosyayı buraya kopyalayalım. komutu tek tek girin.
+    cp -f conf.worker.yaml conf/conf.worker.yaml
+    cd conf
+
+> DOCKER Klasörünün içerisindeyken, bu "conf" klasörünün içine girelim.
+
+> Burada "conf.worker.yaml" ve "secrets.worker.yaml" olarak iki dosya var olmuş olacak. 
+#  
+    nano secrets.worker.yaml
+
+> Yedeğini aldığımız keyleri "secrets.worker.yaml" dosyasına girip değiştirelim.
+
+![image](https://github.com/awelmisin/KenshiGO/assets/73443933/fab49981-e7bc-4c87-af53-1b03136a285f)
 
 
-# 2.4 Yardımcı Olacak Komutlar
+> CTRL+X Y ve Enter yaparak kaydedelim ve çıkalım. Screen oluşturalım.
+
+# 1.6 Screen
+    screen -S kenshi
+    cd
+    cd unchained-v0.11.12-docker
+    ./unchained.sh worker up
+
+> Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
+
+
+
+# 2.0 Yardımcı Olacak Komutlar
 #  log için
     ./unchained.sh worker logs -f
 #  restart için
@@ -111,7 +137,7 @@ Link
     CTRL+C
 #  güncelleme için
     ./unchained.sh worker pull
-    ./unchained.sh worker up -d --force-recreate
+    ./unchained.sh worker up 
 
 > eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
