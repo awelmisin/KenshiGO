@@ -7,7 +7,7 @@ Herkese merhabalar,
 <p align="center">	
 Kenshi yakın zamanda .js'yi bırakıp golang'e geçti.
 <p align="center">
-Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız [ilgili dosyanın rehberi](https://github.com/awelmisin/KenshiGO/blob/main/.js'den%20go%20diline%20ge%C3%A7i%C5%9F.)ne bakabilirsiniz.
+Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız [ilgili dosyanın rehberine](https://github.com/awelmisin/KenshiGO/blob/main/.js'den%20go%20diline%20ge%C3%A7i%C5%9F.md) bakabilirsiniz.
 <p align="center">
 Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 <p align="center">
