@@ -14,8 +14,8 @@ Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutları tek tek giriniz.
 </p>
 
-# ÖNCEKİ SÜRÜMLERDEYSENİZ VE PUAN KAZANAMIYORSANIZ, v0.11.12 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT. 
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/V0.11.12%20G%C3%BCncellemesi%20Hk.md)
+# ÖNCEKİ SÜRÜMLERDEYSENİZ VE PUAN KAZANAMIYORSANIZ, v0.11.13 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT. 
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.13%20G%C3%BCncellemesi%20Hk.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
@@ -35,13 +35,13 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.12/unchained-v0.11.12-docker.zip
-    unzip unchained-v0.11.12-docker.zip
-    cd unchained-v0.11.12-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.13/unchained-v0.11.13-docker.zip
+    unzip unchained-v0.11.13-docker.zip
+    cd unchained-v0.11.13-docker
 
  > Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
- > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.12-docker#  klasöründe işlem yapmanız gerekli!
+ > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.13-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -117,7 +117,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 # 1.6 Screen
     screen -S kenshi
     cd
-    cd unchained-v0.11.12-docker
+    cd unchained-v0.11.13-docker
     ./unchained.sh worker up
 
 > Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -141,7 +141,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 > eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.12-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.13-docker/conf/conf.worker.yaml
 
 
 > Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
