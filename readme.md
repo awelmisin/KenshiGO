@@ -15,7 +15,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 </p>
 
 # ÖNCEKİ SÜRÜMLERDEYSENİZ VE PUAN KAZANAMIYORSANIZ, v0.11.17 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT.  Airdrop'a yaklaşıyoruz ve secrets dosyamızı düzenlememiz lazım. Linkteki kısımları uygulayın.
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.12%20G%C3%BCncellemesi%20Hk.md)
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.17%20G%C3%BCncellemesi%20Hk.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
