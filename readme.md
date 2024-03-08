@@ -7,15 +7,15 @@ Herkese merhabalar,
 <p align="center">	
 Kenshi yakın zamanda .js'yi bırakıp golang'e geçti.
 <p align="center">
-Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız [ilgili dosyanın rehberine](https://github.com/awelmisin/KenshiGO/blob/main/.js'den%20go%20diline%20ge%C3%A7i%C5%9F.md) bakabilirsiniz.
+Bu repo'da sizlere sıfırdan kurulumundan bahsedeceğim. .js'den geçiş yapmak istiyorsanız ilgili rehbere yukarıdaki dosyalardan bakabilirsiniz.
 <p align="center">
 Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 <p align="center">
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutları tek tek giriniz.
 </p>
 
-# ÖNCEKİ SÜRÜMLERDEYSENİZ VE PUAN KAZANAMIYORSANIZ, v0.11.17 GÜNCELLEMESİNDE YAPMANIZ GEREKEN ŞEYLER MEVCUT.  Airdrop'a yaklaşıyoruz ve secrets dosyamızı düzenlememiz lazım. Linkteki kısımları uygulayın.
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.17%20G%C3%BCncellemesi%20Hk.md)
+# Airdrop'a yaklaşıyoruz ve secrets dosyamızı düzenlememiz lazım. Linkteki kısımları uygulayın. Eğer puan kazanmıyorsanız üstteki dosyalardan ilgili sürümü seçip linke bakın.
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.17%20Secrets%20Güncellemesi.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
