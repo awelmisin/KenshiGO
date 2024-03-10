@@ -35,13 +35,13 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.17/unchained-v0.11.17-docker.zip
-    unzip unchained-v0.11.17-docker.zip
-    cd unchained-v0.11.17-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.18/unchained-v0.11.18-docker.zip
+    unzip unchained-v0.11.18-docker.zip
+    cd unchained-v0.11.18-docker
 
  > Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
- > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.17-docker#  klasöründe işlem yapmanız gerekli!
+ > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.18-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -57,12 +57,17 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 	log: info
 	name: burayabakarlar
 
-	rpc:
-	  ethereum: 
-	    - https://ethereum.publicnode.com
-	    - https://eth.llamarpc.com
-	    - wss://ethereum.publicnode.com
-	    - https://eth.rpc.blxrbdn.com
+	
+
+    rpc:
+      ethereum:
+        - https://ethereum.publicnode.com
+        - https://eth.llamarpc.com
+        - wss://ethereum.publicnode.com
+        - https://eth.rpc.blxrbdn.com
+
+      arbitrum_sepolia:
+        - https://sepolia-rollup.arbitrum.io/rpc
 
 	plugins:
 	  uniswap:
@@ -117,7 +122,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 # 1.6 Screen
     screen -S kenshi
     cd
-    cd unchained-v0.11.17-docker
+    cd unchained-v0.11.18-docker
     ./unchained.sh worker up
 
 > Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -141,7 +146,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 > eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.17-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.18-docker/conf/conf.worker.yaml
 
 
 > Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
