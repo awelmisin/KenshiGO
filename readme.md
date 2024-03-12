@@ -15,7 +15,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 </p>
 
 # Airdrop'a yaklaşıyoruz ve secrets dosyamızı düzenlememiz lazım. Linkteki kısımları uygulayın. Eğer puan kazanmıyorsanız üstteki dosyalardan ilgili sürümü seçip linke bakın.
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.17%20Secrets%20Güncellemesi.md)
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.12%20Secrets%20Güncellemesi.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
@@ -35,13 +35,13 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.18/unchained-v0.11.18-docker.zip
-    unzip unchained-v0.11.18-docker.zip
-    cd unchained-v0.11.18-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.18/unchained-v0.11.19-docker.zip
+    unzip unchained-v0.11.19-docker.zip
+    cd unchained-v0.11.19-docker
 
  > Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
- > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.18-docker#  klasöründe işlem yapmanız gerekli!
+ > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.19-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -88,7 +88,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 # 1.6 Screen
     screen -S kenshi
     cd
-    cd unchained-v0.11.18-docker
+    cd unchained-v0.11.19-docker
     ./unchained.sh worker up
 
 > Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -112,7 +112,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 > eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.18-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.19-docker/conf/conf.worker.yaml
 
 
 > Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
