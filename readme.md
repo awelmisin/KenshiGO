@@ -15,7 +15,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 </p>
 
 # Airdrop'a yaklaşıyoruz ve secrets dosyamızı düzenlememiz lazım. Linkteki kısımları uygulayın. Eğer puan kazanmıyorsanız üstteki dosyalardan ilgili sürümü seçip linke bakın.
-[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.12%20Secrets%20Güncellemesi.md)
+[Link](https://github.com/awelmisin/KenshiGO/blob/main/v0.11.17%20Secrets%20Güncellemesi.md)
 
 # KURULUM
 > Öncelikle docker'ı yüklememiz lazım.
@@ -35,7 +35,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.18/unchained-v0.11.19-docker.zip
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.19/unchained-v0.11.19-docker.zip
     unzip unchained-v0.11.19-docker.zip
     cd unchained-v0.11.19-docker
 
