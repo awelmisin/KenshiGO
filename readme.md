@@ -35,13 +35,13 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
     sudo apt install unzip
     cd $home
-    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.20/unchained-v0.11.20-docker.zip
-    unzip unchained-v0.11.20-docker.zip
-    cd unchained-v0.11.20-docker
+    wget https://github.com/KenshiTech/unchained/releases/download/v0.11.21/unchained-v0.11.21-docker.zip
+    unzip unchained-v0.11.21-docker.zip
+    cd unchained-v0.11.21-docker
 
  > Unutmayın, son sürüm neyse onu kullanın ve dosyaları ona göre düzenleyin. 
   
- > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.20-docker#  klasöründe işlem yapmanız gerekli!
+ > HANGİ KLASÖRDE OLDUĞUNUZA DİKKAT EDİN. DEVAM ETMEK İÇİN, ~/unchained-v0.11.21-docker#  klasöründe işlem yapmanız gerekli!
 
 
 # 1.3 Node Düzenlemesi
@@ -88,7 +88,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 # 1.6 Screen
     screen -S kenshi
     cd
-    cd unchained-v0.11.20-docker
+    cd unchained-v0.11.21-docker
     ./unchained.sh worker up
 
 > Bu komutları kullanarak screen oluşturabilir ve CTRL+A ve D yaparak çıkabilirsiniz.
@@ -112,7 +112,7 @@ Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutlar
 
 > eğer kopyalamada sıkıntı çıkarsa, conf klasörü içerisindeki "conf.worker.yaml" dosyasını değiştirmeyi unutmayın!
 # 
-    nano unchained-v0.11.20-docker/conf/conf.worker.yaml
+    nano unchained-v0.11.21-docker/conf/conf.worker.yaml
 
 
 > Bu kadardı. Sizlere yardımcı olmak için hızlıca yazmaya çalıştım, 
